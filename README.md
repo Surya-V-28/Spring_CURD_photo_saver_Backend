@@ -36,24 +36,24 @@ Copy code
 ./mvnw spring-boot:run
 The application should start, and you can access the CRUD operations through RESTful endpoints.
 
-#CRUD Operations
+# CRUD Operations
 Create (POST)
 To create a new record, send a POST request to the /employees endpoint with a JSON payload containing the employee data.
 
-##Read (GET)
+## Read (GET)
 To retrieve all employees, send a GET request to the /employees endpoint.
 
 To retrieve a specific employee by ID, send a GET request to /employees/{id}.
 
-##Update (PUT)
+## Update (PUT)
 To update an existing employee record, send a PUT request to /employees/{id} with a JSON payload containing the updated data.
 
-##Delete (DELETE)
+## Delete (DELETE)
 To delete an employee record, send a DELETE request to /employees/{id}.
 
 
 
-#License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
